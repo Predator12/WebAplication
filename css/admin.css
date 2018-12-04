@@ -1,0 +1,81 @@
+.sf-container,
+.sf-navigation,
+.sf-wrapper {
+    overflow: hidden
+}
+
+body {
+    background: #0F8A5F;
+    margin: 40px 0
+}
+
+.stepform {
+    padding: 20px;
+    background: #fafbfc;
+    border: 1px solid #cfd6e7
+}
+
+.sf-step.sf-active {
+    margin: 10px 0
+}
+
+.sf-step {
+    float: left
+}
+
+.sf-error {
+    color: #D00
+}
+
+.sf-navigation {
+    line-height: 1em;
+    text-align: right
+}
+
+.sf-navigation .nav-next,
+.sf-navigation .nav-prev {
+    display: block;
+    padding: 8px 15px;
+    border: 1px solid #CCC;
+    color: #000;
+    background: #FFF;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-decoration: none;
+    cursor: pointer
+}
+
+.sf-navigation .nav-prev {
+    opacity: .5;
+    float: left
+}
+
+.sf-navigation .nav-next {
+    float: right;
+    margin-left: 5px
+}
+
+.sf-navigation span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    margin: 12px 15px 0 0;
+    background: #CCC
+}
+
+.sf-navigation span.sf-nav-done {
+    background: #a6e6a6
+}
+
+.sf-navigation span.sf-nav-active {
+    background: #0C0
+}
+
+.sf-navigation span.sf-nav-error {
+    background: #D00
+}
+
+#inputMore {
+    height: 50px
+}
