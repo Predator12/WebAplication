@@ -56,107 +56,78 @@
       </div>
     </div>
   </nav>
-  <div class="conteiner-fluid part-1">
 
-  <h1 class="text-center col-lg-12">Навчальна програма</h1>
-    <hr>
+    <div class="conteiner-fluid part-1">
 
-  <div class="container">
+    <h1 class="text-center">Відгуки</h1>
 
-    <table class="table  ">
-    <thead class="thead-inverse">
-      <tr>
-        <th>#</th>
-        <th>Пара</th>
-        <th>День</th>
-        <th>Викладач</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th scope="row">1</th>
-        <td>Математика</td>
-        <td>Вівторок</td>
-        <td>Павлишин</td>
-      </tr>
-      <tr>
-        <th scope="row">2</th>
-        <td>Анг мова</td>
-        <td>Понеділок</td>
-        <td>Сергієва</td>
-      </tr>
-      <tr>
-        <th scope="row">3</th>
-        <td>Програмування</td>
-        <td>Середа</td>
-        <td>Верес</td>
-      </tr>
-      <tr>
-        <th scope="row">4</th>
-        <td>Фізика</td>
-        <td>Четвер</td>
-        <td>Панчин</td>
-      </tr>
-      <tr>
-        <th scope="row">5</th>
-        <td>Філософія</td>
-        <td>Пятниця</td>
-        <td>Іванюк</td>
-      </tr>
-      <tr>
-        <th scope="row">6</th>
-        <td>Електроніка</td>
-        <td>Понеділок</td>
-        <td>Вітер</td>
-      </tr>
-      <tr>
-        <th scope="row">7</th>
-        <td>Історія</td>
-        <td>Середа</td>
-        <td>Копач</td>
-      </tr>
-      <tr>
-        <th scope="row">8</th>
-        <td>Чисильні методи </td>
-        <td>Четвер</td>
-        <td>Дзелендзяк</td>
-      </tr>
-      <tr>
-        <th scope="row">9</th>
-        <td>Конституція України</td>
-        <td>Пятниця</td>
-        <td>Попович</td>
-      </tr>
-    </tbody>
-  </table>
-
-</div>
   </div>
-  <footer class="fot py-5 bg-dark " >
-    <div class="container " id="span">
-      <span class="fa-stack fa-lg">
 
-        <a id="internet" href="https://twitter.com/?lang=uk"> <i class="fa fa-twitter fa-stack-2x" ></i></a>
-        </span>
-      <span class="fa-stack fa-lg" id="internet1">
-  <a  id="internet" href="https://www.instagram.com/instagram/"><i class="fa fa-camera-retro fa-2x"></i></a>
-  </span>
-      <span class="fa-stack fa-lg" id="internet1">
-  <a id="internet" href="https://uk-ua.facebook.com/">  <i class="fa fa-facebook-official fa-2x"></i></a>
-</span>
 
-      </span>
-      <span class="fa-stack fa-lg" id="internet1">
- <a id="internet" href="https://web.telegram.org"><i class="fa fa-telegram fa-2x"></i></a>
-</span>
+  <div class="form-group col-lg-12">
+      <section class="hoc  clear">
+        <div class="btmspace-50">
+    <label class="text-heading">Відгуки</label>
     </div>
+    <textarea class="form-control" id="longdescription" required rows="6"></textarea>
+  </div>
+  <div class="form-group col-lg-4">
+    <label class="text-heading">Ім'я</label>
+    <input  id="name" type="email"  class="form-control" required>
+  </div>
+  <div class="form-group col-lg-12">
+    <button  class="btn btn-secondary" id ="btn1" type="button" name="submit" value="Додати відгук" onclick="AddReview()">Додати</button>
+  </div>
+    </section>
+</div>
 
-  </footer>
+
+<div class="form-group col-lg-12">
+    <section class="hoc clear">
+        <div class="center btmspace-50">
+            <br>
+            <h2 class="heading">Відгуки</h2>
+        </div>
+
+        <div id="comments">
+          <hr>
+        <ul id = "list">
+
+        </ul>
+        </div>
+
+        <br>
+    </section>
+</div>
+
+
+<footer class="fot py-5 bg-dark "style="margin-top: 130px" >
+  <div class="container " id="span">
+    <span class="fa-stack fa-lg">
+
+      <a id="internet" href="https://twitter.com/?lang=uk"> <i class="fa fa-twitter fa-stack-2x" ></i></a>
+      </span>
+    <span class="fa-stack fa-lg" id="internet1">
+<a  id="internet" href="https://www.instagram.com/instagram/"><i class="fa fa-camera-retro fa-2x"></i></a>
+</span>
+    <span class="fa-stack fa-lg" id="internet1">
+<a id="internet" href="https://uk-ua.facebook.com/">  <i class="fa fa-facebook-official fa-2x"></i></a>
+</span>
+
+    </span>
+    <span class="fa-stack fa-lg" id="internet1">
+<a id="internet" href="https://web.telegram.org"><i class="fa fa-telegram fa-2x"></i></a>
+</span>
+  </div>
+
+</footer>
+
 
 </body>
 <script src="jquery/jquery.min.js"></script>
 <script src="jquery/popper.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
-
+<script src="js/jquery.backtotop.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
 
 </html>
